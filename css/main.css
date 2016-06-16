@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid green;*/
+}
+html {
+    font-size: 12px;
+    font-family: helvetica;
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.gray_bar {
+    background-color: #F7F7F7;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding-bottom: 0;
+    height: 6rem;
+}
+.red_bar {
+    display: inline-block;
+    border-color: #FF0000;
+    border-width: 0.4rem 0rem 0rem 0rem;
+    border-style: solid;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    float: left;
+}
+.designco.menu_buttons {
+    width: 10rem;
+    display: inline-block;
+    float: left;
+    /*border: 1px solid blue;*/
+    padding-top: 2rem;
+}
+.menu_buttons a {
+    display: inline-block;
+    float: left;
+    margin: auto;
+    padding: 2.0rem;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+.menu_buttons.home {
+    color: red;
+}
+a:hover {
+    background-color: #FF0000;
+    transition: background-color 1s;
+}
+div .menu_buttons {
+    /*font-size: 1.5rem;*/
+}
+.icon {
+    float: right;
+    width: 3.5rem;
+    padding: 1.8em 1.8rem 0 0;
+    /*border: 1px solid blue;*/
+}
+.main_text {
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    clear: left;
+    padding-top: 10.0rem;
+    font-size: 3.2rem;
+}
+h2 {
+    font-weight: normal;
+}
+h2.main_text {
+    padding-bottom: 4.0rem;
+}
+.image_block {
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    float: left;
+    padding-top: 5rem 0 0 0;
+}
+.img {
+    padding: 0;
+    display: inline-block;
+    overflow: auto;
+    zoom: 1;
+    margin: 0;
+}
+.top_left {
+    width: 60%;
+    float: left;
+    margin-bottom: 2rem;
+}
+.top_right {
+    width: 38%;
+    height: 180px;
+    float: right;
+}
+.bottom_left {
+    width: 20% left: 0rem;
+    clear: left;
+    float: left;
+}
+.bottom_center {
+    width: 25%;
+    float: left;
+}
+.bottom_right {
+    width: 38%;
+    float: right;
+    margin-top: -7.5rem;
+}
+.bolded_headers {
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+.whats_new {
+    color: red;
+    display: inline-block;
+    float: left;
+    padding-right: 10rem;
+}
+.modern_layouts {
+    display: inline-block;
+    float: left;
+}
+.bottom_text {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    float: left;
+    display: inline-block;
+}
+.bottom_left_column {
+    clear: left;
+    display: inline-block;
+    float: left;
+    padding-right: 3.1rem;
+}
+.bottom_right_column {
+    display: inline-block;
+    float: left;
+    width: 78%;
+    column-count: 3;
+    padding: 0 0 1rem 0;
+}

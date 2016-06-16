@@ -34,7 +34,6 @@ html {
     width: 10rem;
     display: inline-block;
     float: left;
-    /*border: 1px solid blue;*/
     padding-top: 2rem;
 }
 .menu_buttons a {
@@ -54,13 +53,12 @@ a:hover {
     transition: background-color 1s;
 }
 div .menu_buttons {
-    /*font-size: 1.5rem;*/
+    font-size: 1.5rem;
 }
 .icon {
     float: right;
     width: 3.5rem;
     padding: 1.8em 1.8rem 0 0;
-    /*border: 1px solid blue;*/
 }
 .main_text {
     margin: 0;
@@ -77,44 +75,49 @@ h2 {
 h2.main_text {
     padding-bottom: 4.0rem;
 }
+
 .image_block {
-    width: 75%;
-    height: auto;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-    float: left;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 5rem 0 0 0;
+    display: flex;
 }
 .img {
-    padding: 0;
-    display: inline-block;
-    overflow: auto;
-    zoom: 1;
-    margin: 0;
+    width: 100%;
+}
+.container_left {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.container_right {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
 }
 .top_left {
-    width: 60%;
-    float: left;
-    margin-bottom: 2rem;
+    flex: 3;
+    min-width: 100%;
+    flex-basis: auto;
+    padding-bottom: 10px;
 }
 .top_right {
-    width: 38%;
-    height: 180px;
-    float: right;
+    flex: 1;
 }
 .bottom_left {
-    width: 20% left: 0rem;
-    clear: left;
-    float: left;
+    flex: 1.2;
 }
 .bottom_center {
-    width: 25%;
-    float: left;
+    flex: 1.8;
+    padding-left: 10px;
 }
 .bottom_right {
-    width: 38%;
-    float: right;
-    margin-top: -7.5rem;
+    flex: 1;
 }
 .bolded_headers {
     font-weight: bold;
@@ -126,10 +129,12 @@ h2.main_text {
     display: inline-block;
     float: left;
     padding-right: 10rem;
+    padding-left: 2.2rem;
 }
 .modern_layouts {
     display: inline-block;
     float: left;
+    padding-left: 4rem;
 }
 .bottom_text {
     width: 75%;
@@ -142,12 +147,18 @@ h2.main_text {
     clear: left;
     display: inline-block;
     float: left;
-    padding-right: 3.1rem;
+    padding-left: 2.2rem;
 }
 .bottom_right_column {
     display: inline-block;
     float: left;
     width: 78%;
     column-count: 3;
-    padding: 0 0 1rem 0;
+    padding: 0 0 1rem 7rem;
+}
+.bottom_left_column p {
+    margin: 0;
+}
+.bottom_right_column p {
+    margin: 0;
 }
